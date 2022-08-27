@@ -31,3 +31,8 @@
 ### Redux Toolkit
 
 - The official, opinionated, batteries-included toolset for efficient Redux development
+
+### Summary of Why Redux Toolkit(5.1)
+
+- Initial project setup for using RTK(Redux Toolkit)
+- We use RTK for avoiding extra boilerplate like actionTypes, actions, etc.
