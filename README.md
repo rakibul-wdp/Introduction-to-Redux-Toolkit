@@ -52,3 +52,9 @@
 ### Configure Redux store (5.3)
 
 #### configureStore() method & dispatch actions
+
+### Summary of Configure Redux store (5.3)
+
+- By configureStore we can create store and it's take object.
+- In this configureStore we can put store and also, this reducer take multiple store.
+- And index.js file with counterAction (that we export from counterSlice) we can dispatch.
