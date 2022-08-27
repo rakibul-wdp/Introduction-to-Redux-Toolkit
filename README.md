@@ -40,3 +40,11 @@
 ### Creating Slice (5.2)
 
 #### Using Redux Toolkit createSlice() method
+
+### Summary of Creating Slice (5.2)
+
+- Redux toolkit provide createSlice and it's take object.
+- In this createSlice object have three thing like name, initialState, and reducers.
+- In reducers object take function like our previous reducer case system.
+- reducer exports as a default like counterSlice.reducer;
+- actions exports as a name like counterSlice.actions;
