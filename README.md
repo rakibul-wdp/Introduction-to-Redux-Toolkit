@@ -36,3 +36,7 @@
 
 - Initial project setup for using RTK(Redux Toolkit)
 - We use RTK for avoiding extra boilerplate like actionTypes, actions, etc.
+
+### Creating Slice (5.2)
+
+#### Using Redux Toolkit createSlice() method
