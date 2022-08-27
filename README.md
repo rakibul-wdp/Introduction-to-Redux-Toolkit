@@ -48,3 +48,7 @@
 - In reducers object take function like our previous reducer case system.
 - reducer exports as a default like counterSlice.reducer;
 - actions exports as a name like counterSlice.actions;
+
+### Configure Redux store (5.3)
+
+#### configureStore() method & dispatch actions
