@@ -78,3 +78,7 @@
 
 - We can easily add another feature in our application. Just go feature file and create another file that you want add any kind of feature like dynamicCounter and create slice for it.
 - And then go to store add this slice in reducer object. And lastly dispatch it in index file.
+
+### Middleware concept (5.6)
+
+#### How to apply middleware to Redux Toolkit
