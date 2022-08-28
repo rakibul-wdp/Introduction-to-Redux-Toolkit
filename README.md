@@ -82,3 +82,9 @@
 ### Middleware concept (5.6)
 
 #### How to apply middleware to Redux Toolkit
+
+### Summary of middleware concept(5.7)
+
+- We can use middleware with redux toolkit in configureStore.
+- In configureStore after reducer we can use middleware and middleware is a callback function and have some own middleware that we bring by getDefaultMiddlewares and then call it.
+- After call getDefaultMiddlewares we concat() our own middleware. In this case we use redux-logger middleware for understand name property of createSlice object.
