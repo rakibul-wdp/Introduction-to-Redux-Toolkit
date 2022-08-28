@@ -1,3 +1,4 @@
+const { INCREMENT } = require('../counter/actionTypes');
 const { DINCREMENT, DDECREMENT } = require('./actionTypes');
 
 // initial state
@@ -18,6 +19,12 @@ const dynamicCounterReducer = (state = initialState, action) => {
       return {
         ...state,
         count: state.count - action.payload,
+      };
+
+    case INCREMENT:
+      return {
+        ...state,
+        count: state.count + 1,
       };
 
     default:

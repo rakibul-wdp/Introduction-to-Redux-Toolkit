@@ -92,3 +92,7 @@
 ### Extra Reducers (5.7)
 
 #### Respond to other slice reducers
+
+- (Vanilla Redux)
+- If we want to like dispatch one action and it work another action like click counter increment and it works also dynamic counter feature then we need use Increment case in dynamic reducer function and then it's work.
+-
