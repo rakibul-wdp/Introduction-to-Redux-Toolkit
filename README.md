@@ -70,6 +70,11 @@
 - Now you can update state mutable way by draftState.
 - Basically, under the hood immer update state immutable way because it's also take main state.
 
-### Add new feature or slice
+### Add new feature or slice (5.5)
 
 #### Add dynamic counter feature/slice
+
+### Summary of add new feature or slice (5.5)
+
+- We can easily add another feature in our application. Just go feature file and create another file that you want add any kind of feature like dynamicCounter and create slice for it.
+- And then go to store add this slice in reducer object. And lastly dispatch it in index file.
