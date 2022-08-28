@@ -62,3 +62,10 @@
 ### Introduction to immer (5.4)
 
 #### Immutable state update in a mutable way
+
+### Summary of immer (5.4)
+
+- By immer we can update state mutable way.
+- At first we need install immer (npm i immer) and you need to use produce (that come from immer) and produce take two thing like main state and a function this function parameter is draftState.
+- Now you can update state mutable way by draftState.
+- Basically, under the hood immer update state immutable way because it's also take main state.
