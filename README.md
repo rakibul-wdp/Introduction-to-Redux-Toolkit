@@ -69,3 +69,7 @@
 - At first we need install immer (npm i immer) and you need to use produce (that come from immer) and produce take two thing like main state and a function this function parameter is draftState.
 - Now you can update state mutable way by draftState.
 - Basically, under the hood immer update state immutable way because it's also take main state.
+
+### Add new feature or slice
+
+#### Add dynamic counter feature/slice
