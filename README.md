@@ -95,4 +95,6 @@
 
 - (Vanilla Redux)
 - If we want to like dispatch one action and it work another action like click counter increment and it works also dynamic counter feature then we need use Increment case in dynamic reducer function and then it's work.
--
+- (Redux Toolkit)
+- This same work we can do with extraReducers after reducers in createSlice section.
+- There are two way to use extraReducer one way is hardcoded action name and second way is dynamic action with builder.addCase using.
