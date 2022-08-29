@@ -114,3 +114,9 @@
 ### Async thunks - Part 2 (5.9)
 
 #### Using asynchronous thunk functions - Modern way
+
+### Summary of async thunks (5.9)
+
+- In redux toolkit if you want to use thunk function for any data fetch you need follow just few think like initialState, create thunk function, and in createSlice and extraReducer follow three think like pending, fulfilled, and rejected.
+- We already know in extraReducer have callback function and parameter is builder and also we use it for data fetching.
+- And in store put this reducer and lastly dispatch thunk function.
