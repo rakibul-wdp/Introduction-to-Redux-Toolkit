@@ -104,3 +104,9 @@
 ### Async thunks - Part 1 (5.8)
 
 #### Using asynchronous thunk functions - Old way
+
+### Summary of async thunks (5.8)
+
+- As usual create initialState, action, reducer, thunk function, create store, subscribe state change, and dispatch action.
+- In thunk function use try catch and try to load jsonplaceholder fake data.
+- In thunk function three difference case like requested, succeeded, failed. If succeed fetch data else give error. In this case we use try catch.
