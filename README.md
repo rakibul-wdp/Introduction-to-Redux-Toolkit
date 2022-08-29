@@ -110,3 +110,7 @@
 - As usual create initialState, action, reducer, thunk function, create store, subscribe state change, and dispatch action.
 - In thunk function use try catch and try to load jsonplaceholder fake data.
 - In thunk function three difference case like requested, succeeded, failed. If succeed fetch data else give error. In this case we use try catch.
+
+### Async thunks - Part 2 (5.9)
+
+#### Using asynchronous thunk functions - Modern way
