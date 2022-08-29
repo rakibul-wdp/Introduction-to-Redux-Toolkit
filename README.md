@@ -83,7 +83,7 @@
 
 #### How to apply middleware to Redux Toolkit
 
-### Summary of middleware concept(5.7)
+### Summary of middleware concept(5.6)
 
 - We can use middleware with redux toolkit in configureStore.
 - In configureStore after reducer we can use middleware and middleware is a callback function and have some own middleware that we bring by getDefaultMiddlewares and then call it.
@@ -93,8 +93,14 @@
 
 #### Respond to other slice reducers
 
+### Summary of extra reducers (5.7)
+
 - (Vanilla Redux)
 - If we want to like dispatch one action and it work another action like click counter increment and it works also dynamic counter feature then we need use Increment case in dynamic reducer function and then it's work.
 - (Redux Toolkit)
 - This same work we can do with extraReducers after reducers in createSlice section.
 - There are two way to use extraReducer one way is hardcoded action name and second way is dynamic action with builder.addCase using.
+
+### Async thunks - Part 1 (5.8)
+
+#### Using asynchronous thunk functions - Old way
